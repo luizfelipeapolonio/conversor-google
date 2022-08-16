@@ -1,4 +1,4 @@
-# Cronômetro
+# Conversor de medidas do Google
 
 Reprodução do conversor de medidas do Google, que efetua trocas dinâmicas das escalas de acordo com as operações, feito com HTML, CSS e Javascript Vanilla
 
