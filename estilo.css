@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-image: linear-gradient(to top right, rgb(0, 0, 0), rgb(109, 21, 21));
+    /*background-color: rgba(5, 79, 217, 0.76);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:white;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    background-color: rgba(39, 39, 39, 0.713);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    width: 460px;
+    min-height: 200px;
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 8px;
+}
+
+#selmedidas {
+    width: 100%;
+    padding: 5px 0px 5px 3px;
+    font-size: 14px;
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 3px;
+    outline: none;
+}
+
+#selmedidas:focus {
+    border: 1px solid dodgerblue;
+}
+
+.dados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*background-color: yellow;*/
+    height: 80px;
+    align-items: center;
+}
+
+.div-num1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: red;*/
+    width: 200px;
+}
+
+.div-num2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: blue;*/
+    width: 200px;
+}
+
+/* ===== Caixas de texto ===== */
+input {
+    background-color:rgba(0, 0, 0, 0.3);
+    color: white;
+    height: 40px;
+    text-align: center;
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 3px 3px 0 0;
+    font-size: 22px;
+    outline: none;
+}
+
+/* ===== Removendo as flechas dos input number ===== */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* ===== Selects das caixas de texto ===== */
+#selnum1, #selnum2 {
+    margin-top: -1px;
+    padding: 5px 0px 5px 3px;
+    font-size: 14px;
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 0 0 3px 3px;
+    outline: none;
+}
+
+#selnum1:focus, #selnum2:focus {
+    border: 1px solid dodgerblue;
+}
+
+select {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+select option {
+    background-color:rgba(0, 0, 0, 0.780);
+}
+

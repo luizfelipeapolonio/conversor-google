@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="medidas">
+            <select class="seletores" id="selmedidas" oninput="carregarSelect()">
+                <option>Comprimento</option>
+                <option>Temperatura</option>
+            </select>
+        </div>
+        <div class="dados">
+            <div class="div-num1">
+                <input type="number" class="numeros" id="num1">
+                <select class="seletores" id="selnum1" oninput="verificaOp()">
+                    
+                </select>
+            </div>
+            =
+            <div class="div-num2">
+                <input type="number" class="numeros" id="num2">
+                <select class="seletores" id="selnum2" oninput="verificaOp()">
+                    
+                </select>
+            </div>   
+        </div>
+        <div class="formulas" id="formulas">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
